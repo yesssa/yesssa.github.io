@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  body {
+    padding-top: 50px;
+  }
+
+  nav {
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  section {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .atas {
+    position: fixed;
+    padding-left: 15vw;
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  /* NAV BAR MENU */
+
+  nav .atas .menu {
+    width: 150px;
+    height: 32px;
+    padding: 0px 0px;
+    padding-top: 18px;
+    float: left;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.5s;
+  }
+
+  nav .atas .menu:hover {
+    background-color: rgb(107, 34, 106);
+  }
+
+  .judul {
+    padding-left: auto;
+    padding-top: 170px;
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    color:rgb(180, 36, 161);
+  }
+
+  .text_aja {
+    padding-left: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 75vw;
+    margin: 0 auto;
+    text-align: center;
+    color:black;
+  }
+
+  section.special {
+    background-color: white;
+    width: 1110px;
+    height: 600px;
+    text-align: center;
+    object-position: center;
+    margin: auto;
+    margin-left: 180px;
+  }
+
+  section.special img {
+    width: 800px;
+    height: auto;
+  }
+
+  .column {
+    float: left;
+		width: 40%;
+		padding: 30px;
+    text-align: justify;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 100px;
+  }
+
+/*-------GENRE-------*/
+
+div.container {
+  width: 80vw;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Genre {
+  padding-top: 13px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.Genre h1 {
+ margin-bottom: 10px;
+ padding-left: 10px;
+ position: relative;
+}
+
+.Genre-box {
+  background: #f9f9f9;
+  padding: 10px;
+  margin-top: 10px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  position: relative;
+  padding-left: 5vw;
+    width: 50vw;
+    height: 150px;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: regular; 
+}
+
+.Genre-box p {
+  font-size: 14px;
+  margin-top: 15px;
+  color: #777;
+}
+
+.Genre-box:hover {
+  background: rgb(112, 16, 112);
+  color: #fff;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  transition: 1s
+}
+
+.Genre-box:hover p {
+  color: #fff;
+}
+
+ /*-------LATESTNEWS-------*/
+
+ .judul3 {
+  color:rgb(255, 229, 229);
+  font-size: 80pt;
+  text-align: left;
+}
+
+.news3 {
+  width: 47%;
+  height: 300px;
+  border: 10px;
+  float: left;
+  padding: 1%;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.news3 :hover {
+  background-color: rgb(219, 194, 241);
+  transition-duration: 1s;
+}
+
+.img3 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  border-radius: 100px;
+}
+
+.head1_3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+  font-weight: bold;
+  padding-top: 4%;
+}
+
+.head2_3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+  font-weight: 100;
+}
+
+.head3_3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13pt;
+  font-weight: lighter;
+  color: cornflowerblue;
+}
+
+/*-------SONG RECS-------*/
+
+.main4 {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+.image4 {
+  width: 40vw;
+  height: auto;
+  float: left;
+}
+
+.image4 img {
+  width: 35vw;
+  height: auto;
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.judul4 {
+  font-size: 20pt;
+  margin-top: 20px;
+  padding-left: 53%;
+  padding-top: 10px;
+}
+
+.category {
+  width: 500px;
+  height: 60px;
+  float: right;
+  text-align: left;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-right: 3cm;
+  background-color: #6b226a;
+  border-radius: 10px;
+}
+
+.Singer {
+  margin-top: 5px;
+  margin-left: 30px;
+  font-size: 15pt;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+}
+
+.Music {
+  margin-left:30px;
+  font-size: 15pt;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: white;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+ /*-------TOPARTIST-------*/
+
+ .container5{
+  width: 100%;
+  height: 40vh;
+}
+
+.img5 {
+  width: 220px;
+  height: 220px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.artist5 {
+  width: 20%;
+  height: 200px;
+  border: 10px;
+  float: left;
+}
+
+.subhead5 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 17pt;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container5:hover {
+  background-color: rgb(205, 205, 205);
+  transition-duration: 0.7s;
+}
+
+  /*-------SHOP-------*/
+
+  .main6 {
+    width: 100vw;
+    height: 100%;
+    float: left;
+  }
+
+  .imageleft6 {
+    width: 40vw;
+    height: auto;
+    float: left;
+  }
+
+  .imageleft6 img {
+    width: 40vw;
+    height: 846px;
+  }
+
+  .category6 {
+    width: 20%;
+    height: 423px;
+    float: left;
+    text-align: center;
+    padding: 0px;
+    cursor: pointer;
+  }
+
+  .category6 p {
+    margin-top: 80%;
+    margin-left: 0%;
+    font-size: 18pt;
+    color: whitesmoke;
+  }
+
+  .sub6 {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    margin-right: 0%;
+  }
+
+  .sub6 :hover {
+    background-color: #EEEEEE;
+  }
+
+  .sub6 h2 {
+    text-align: center;
+    font-size: 20pt;
+    padding-bottom: 20px;
+  }
+
+  .mini6 {
+    float: left;
+    padding-top : 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .mini6 img{
+    width: 13vw;
+    height: auto;
+    float: left;
+
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .mini6 h3 {
+    font-size: 10pt;
+    text-align: center;
+  }
+
+  .mini6 h4 {
+    font-size: 11pt;
+    text-align: center;
+  }
