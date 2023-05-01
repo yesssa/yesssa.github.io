@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="category1.html">Category</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div id="headline-container">
+        <div id="template-headline-news">
+          <a href="{link}">
+            <div class="headline-news">
+              <img src="{img}" class="news-image">
+              <div class="news-content">
+                <h1 style="font-size: 36px;">{title}</h1>
+                <p style="font-size: 20px;">{subtext}</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="content-container">
+        <div class="content-sub-news" id="sub-news-container">
+          <div id="template-sub-news">
+            <a href="{link}">
+              <div class="sub-news">
+                <img src="{img}" class="sub-news-image">
+                <div class="sub-news-content">
+                  <h1 style="font-size: 20px;">{title}</h1>
+                  <p style="font-size: 14px;">{subtext}</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="content-new-news">
+          <h1 class="content-new-news-title">THIS WEEK</h1>
+          <div id="new-news-container">
+            <div id="template-new-news-headline">
+              <a href="{link}">
+                <div class="new-news-headline">
+                  <img src="{img}" class="new-news-headline-image">
+                  <div class="new-news-headline-content">
+                    <div class="new-news-headline-content-layout">
+                      <div class="new-news-headline-number">{number}</div>
+                      <div class="new-news-headline-text">
+                        <div class="new-news-headline-title">{title}</div> <br>
+                        <span class="new-news-headline-subtext">{subtext}</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div id="template-new-news">
+              <a href="{link}">
+                <div class="new-news">
+                  <div class="new-news-number">{number}</div>
+                  <div class="new-news-content">
+                    <span class="new-news-content-title">{title}</span> <br>
+                    <span class="new-news-content-subtext">{subtext}</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <div class="footer-text">News Website</div>
+        <div class="footer-subtext">Copyright &copy; Dispatch. Al rights reserved.</div>
+        <div class="footer-follow">
+          <div class="footer-follow-text">Follow Us</div>
+          <a href="#"><img src="assets/img/fb.svg" class="footer-follow-icon"></a>
+          <a href="#"><img src="assets/img/ig.svg" class="footer-follow-icon"></a>
+        </div>
+    </footer>
+  </body>
+</html>
+
+<script src="scripts/index_script.js"></script>

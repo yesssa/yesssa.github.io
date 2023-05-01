@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Category</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="category1.html">Category</a></li>
+      </ul>
+    </nav>
+  <div class="container">
+    <h1 style="text-align: center; padding-left: 50%; text-decoration: underline; float: left; flex-direction: column; padding-bottom: 40px;">Sport</h1>
+    <br>
+      <div class="top-kiri" id="top-kiri-container"> </div>
+      <div class="sub-kanan" id="sub-kanan-container"></div>
+  </div>
+    <footer>
+        <div class="footer-text">News Website</div>
+        <div class="footer-subtext">Copyright &copy; Dispatch. Al rights reserved. </div>
+        <div class="footer-follow">
+          <div class="footer-follow-text">Follow Us</div>
+          <a href="#"><img src="assets/img/fb.svg" class="footer-follow-icon"></a>
+          <a href="#"><img src="assets/img/ig.svg" class="footer-follow-icon"></a>
+        </div>
+    </footer>
+  </body>
+</html>
+
+<script  type="text/javascript" src="scripts/catscript.js">
+    document.getElementById('top-kiri-container').innerHTML = topNewsList;
+    document.getElementById('sub-kanan-container').innerHTML = subNewsList;
+</script>
